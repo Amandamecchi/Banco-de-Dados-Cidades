@@ -61,7 +61,75 @@ INSERT INTO cidades_brasil (estado, cidade, populacao, fundacao, prefeito) VALUE
 ('Paraná', 'Paranaguá', 157378, '1648-06-29', 'Marcelo Roque'),
 ('Paraná', 'Apucarana', 137602, '1943-04-28', 'Junior da Femac'),
 ('São Paulo', 'Franca', 355901, '1824-11-28', 'Alexandre Ferreira'),
-('São Paulo', 'Taubaté', 317915, '1645-12-05', 'José Saud');
+('São Paulo', 'Taubaté', 317915, '1645-12-05', 'José Saud'),
+('Paraná', 'Toledo', 142645, '1951-12-14', 'Beto Lunitti'),
+('Paraná', 'Araucária', 146926, '1890-02-11', 'Hissam Hussein Dehaini'),
+('Paraná', 'Colombo', 244376, '1890-02-05', 'Helder Lazarotto'),
+('Paraná', 'Almirante Tamandaré', 119238, '1889-11-02', 'Gerson Colodel'),
+('Paraná', 'Campo Largo', 140434, '1870-03-23', 'Maurício Rivabem'),
+('Paraná', 'Pinhais', 132287, '1992-03-20', 'Rosa Maria'),
+('Santa Catarina', 'São José', 250181, '1750-03-19', 'Orvino Coelho de Ávila'),
+('Santa Catarina', 'Palhoça', 175272, '1793-04-10', 'Eduardo Freccia'),
+('Santa Catarina', 'Tubarão', 107348, '1870-10-27', 'Joares Ponticelli'),
+('Santa Catarina', 'Brusque', 137689, '1860-08-04', 'Ari Vequi'),
+('Santa Catarina', 'Jaraguá do Sul', 184718, '1876-07-25', 'Jair Franzner'),
+('Santa Catarina', 'Rio do Sul', 71996, '1931-10-15', 'José Thomé'),
+('Rio Grande do Sul', 'Passo Fundo', 204722, '1857-08-07', 'Pedro Almeida'),
+('Rio Grande do Sul', 'Uruguaiana', 126936, '1843-02-24', 'Ronnie Mello'),
+('Rio Grande do Sul', 'Bagé', 121335, '1811-07-17', 'Divaldo Lara'),
+('Rio Grande do Sul', 'Guaíba', 102568, '1926-10-14', 'Marcelo Maranata'),
+('Rio Grande do Sul', 'Esteio', 85153, '1954-12-15', 'Leonardo Pascoal'),
+('Rio Grande do Sul', 'Sapucaia do Sul', 141795, '1961-04-20', 'Volmir Rodrigues'),
+('Rio Grande do Sul', 'Alvorada', 211352, '1965-09-17', 'José Arno Appolo'),
+('Rio Grande do Sul', 'Erechim', 106088, '1918-04-30', 'Paulo Polis'),
+('Rio Grande do Sul', 'São Leopoldo', 236835, '1824-07-25', 'Ary Vanazzi'),
+('Rio Grande do Sul', 'Rio Grande', 208641, '1737-02-19', 'Fábio Branco'),
+('Minas Gerais', 'Araxá', 107337, '1865-12-19', 'Robson Magela'),
+('Minas Gerais', 'Poços de Caldas', 167481, '1872-11-06', 'Sérgio Azevedo'),
+('Minas Gerais', 'Teófilo Otoni', 141934, '1853-09-07', 'Daniel Sucupira'),
+('Minas Gerais', 'Varginha', 136602, '1882-09-07', 'Verdi Lúcio Melo'),
+('Minas Gerais', 'Barbacena', 138204, '1791-08-14', 'Carlos Du'),
+('Minas Gerais', 'Muriae', 109402, '1855-05-16', 'José Braz'),
+('Minas Gerais', 'Ituiutaba', 106676, '1901-09-16', 'Leandro Zago'),
+('São Paulo', 'Presidente Prudente', 232497, '1917-09-14', 'Ed Thomas'),
+('São Paulo', 'Botucatu', 148130, '1855-04-14', 'Mário Pardini'),
+('São Paulo', 'Avaré', 91642, '1861-09-15', 'Jô Silvestre'),
+('São Paulo', 'Itapeva', 92993, '1769-09-20', 'Mário Tassinari'),
+('São Paulo', 'Assis', 105087, '1905-07-01', 'José Fernandes'),
+('São Paulo', 'Araraquara', 241887, '1817-08-22', 'Edinho Silva'),
+('São Paulo', 'Ourinhos', 115723, '1916-12-13', 'Lucas Pocay'),
+('São Paulo', 'Atibaia', 145215, '1665-06-24', 'Emil Ono'),
+('São Paulo', 'Barueri', 283597, '1560-03-11', 'Rubro Nakano'),
+('São Paulo', 'Itapetininga', 169853, '1770-11-05', 'Simone Marquetto');
 
-// Delete
+//DELETE
 
+DELETE FROM cidades WHERE estado = 'São Paulo' AND cidade = 'São Paulo';
+DELETE FROM cidades WHERE estado = 'São Paulo' AND cidade = 'Campinas';
+DELETE FROM cidades WHERE estado = 'São Paulo' AND cidade = 'Santos';
+DELETE FROM cidades WHERE estado = 'São Paulo' AND cidade = 'São José dos Campos';
+DELETE FROM cidades WHERE estado = 'São Paulo' AND cidade = 'Ribeirão Preto';
+DELETE FROM cidades WHERE estado = 'São Paulo' AND cidade = 'Sorocaba';
+DELETE FROM cidades WHERE estado = 'São Paulo' AND cidade = 'Guarulhos';
+DELETE FROM cidades WHERE estado = 'São Paulo' AND cidade = 'Osasco';
+DELETE FROM cidades WHERE estado = 'Minas Gerais' AND cidade = 'Belo Horizonte';
+DELETE FROM cidades WHERE estado = 'Minas Gerais' AND cidade = 'Uberlândia';
+DELETE FROM cidades WHERE estado = 'Minas Gerais' AND cidade = 'Juiz de Fora';
+DELETE FROM cidades WHERE estado = 'Minas Gerais' AND cidade = 'Contagem';
+DELETE FROM cidades WHERE estado = 'Minas Gerais' AND cidade = 'Betim';
+DELETE FROM cidades WHERE estado = 'Minas Gerais' AND cidade = 'Montes Claros';
+DELETE FROM cidades WHERE estado = 'Minas Gerais' AND cidade = 'Uberaba';
+DELETE FROM cidades WHERE estado = 'Rio de Janeiro' AND cidade = 'Rio de Janeiro';
+DELETE FROM cidades WHERE estado = 'Rio de Janeiro' AND cidade = 'Niterói';
+DELETE FROM cidades WHERE estado = 'Rio de Janeiro' AND cidade = 'Nova Iguaçu';
+DELETE FROM cidades WHERE estado = 'Rio de Janeiro' AND cidade = 'Duque de Caxias';
+DELETE FROM cidades WHERE estado = 'Rio de Janeiro' AND cidade = 'Campos dos Goytacazes';
+DELETE FROM cidades WHERE estado = 'Rio de Janeiro' AND cidade = 'Volta Redonda';
+DELETE FROM cidades WHERE estado = 'Espírito Santo' AND cidade = 'Vitória';
+DELETE FROM cidades WHERE estado = 'Espírito Santo' AND cidade = 'Vila Velha';
+DELETE FROM cidades WHERE estado = 'Espírito Santo' AND cidade = 'Serra';
+DELETE FROM cidades WHERE estado = 'Espírito Santo' AND cidade = 'Cariacica';
+DELETE FROM cidades WHERE estado = 'Espírito Santo' AND cidade = 'Guarapari';
+DELETE FROM cidades WHERE estado = 'Paraná' AND cidade = 'Curitiba';
+DELETE FROM cidades WHERE estado = 'Paraná' AND cidade = 'Londrina';
+DELETE FROM cidades WHERE estado = 'Paraná' AND cidade = 'Maringá';
