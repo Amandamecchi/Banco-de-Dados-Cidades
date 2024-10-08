@@ -1,0 +1,20 @@
+Entidade: Cidade
+    - id (PRIMARY KEY);
+    - nome;
+    - populacao;
+    - prefeito_id;
+    - estado_id;
+
+Entidade: Prefeito
+    - id ;
+    - nome;
+    - idade;
+
+Entidade: Estado
+    - id;
+    - nome;
+
+Relacionamento:
+    - Uma cidade tem um prefeito;
+    - Um estado possui várias cidades;
+    - Uma cidade possuí um estado.
