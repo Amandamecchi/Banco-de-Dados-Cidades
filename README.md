@@ -49,6 +49,6 @@ Exemplos de INSERTs, SELECTs, DELETEs, UPDATEs, e funções SQL usadas.
 
 Amanda Mechi | André Lucca | Beatriz Lima | Enzo Turcovic | Leonardo Pedro
 
-#Data de Entrega
+# Data de Entrega
 
 15 de outubro de 2024
