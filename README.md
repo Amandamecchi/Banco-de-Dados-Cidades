@@ -1,4 +1,4 @@
-<h1 aligh="center"> Projeto de Banco de Dados </h1>
+<h1 align="center"> Projeto de Banco de Dados </h1>
 
 <h2 aligh="center"> Objetivo </h2>
 
