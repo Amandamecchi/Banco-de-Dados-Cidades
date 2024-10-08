@@ -1,6 +1,6 @@
 <h1 aligh="center"> Projeto de Banco de Dados </h1>
 
-<h1 aligh="center"> Objetivo </h1>
+<h2 aligh="center"> Objetivo </h2>
 
 Este projeto tem como finalidade aprimorar os conhecimentos em SQL por meio da criação de um banco de dados completo. Ele inclui a modelagem do banco, a inserção de dados, realização de consultas e operações SQL, além da utilização de funções SQL. Ao final, será apresentada a estrutura do banco e as operações realizadas.
 
