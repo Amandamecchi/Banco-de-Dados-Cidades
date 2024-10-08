@@ -99,10 +99,10 @@ INSERT INTO cidades_brasil (estado, cidade, populacao, fundacao, prefeito) VALUE
 ('São Paulo', 'Araraquara', 241887, '1817-08-22', 'Edinho Silva'),
 ('São Paulo', 'Ourinhos', 115723, '1916-12-13', 'Lucas Pocay'),
 ('São Paulo', 'Atibaia', 145215, '1665-06-24', 'Emil Ono'),
-('São Paulo', 'Barueri', 283597, '1560-03-11', 'Rubro Nakano'),
+('São Paulo', 'Barueri', 283597, '1560-03-11', 'Rubro Nakano');
 ('São Paulo', 'Itapetininga', 169853, '1770-11-05', 'Simone Marquetto');
 
-//DELETE
+//DELETE 
 
 DELETE FROM cidades_brasil WHERE estado = 'São Paulo' AND cidade = 'São Paulo';
 DELETE FROM cidades_brasil WHERE estado = 'São Paulo' AND cidade = 'Campinas';
