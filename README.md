@@ -4,11 +4,11 @@
 
 Este projeto tem como finalidade aprimorar os conhecimentos em SQL por meio da criação de um banco de dados completo. Ele inclui a modelagem do banco, a inserção de dados, realização de consultas e operações SQL, além da utilização de funções SQL. Ao final, será apresentada a estrutura do banco e as operações realizadas.
 
-<h1 aligh="center"> Escolha do Tema </h1>
+<h2 aligh="center"> Escolha do Tema </h2>
 
 O tema do nosso banco de dados é cidades. Escolhemos este tema por causa da época de eleição, e por isso achamos que seria interessante ter algumas informações sobre as cidades brasileiras.
 
-<h1 aligh="center"> Modelagem </h1>
+<h2 aligh="center"> Modelagem </h2>
 
 MER (Modelo Entidade-Relacionamento)
 
@@ -18,7 +18,7 @@ DER (Diagrama Entidade-Relacionamento)
 
 O DER foi gerado a partir do MER, mostrando graficamente a estrutura do banco de dados, como as entidades e seus relacionamentos.
 
-<h1 aligh="center"> Consultas e Operações SQL </h1>
+<h2 aligh="center"> Consultas e Operações SQL </h2>
 
 Neste projeto, realizamos as seguintes operações no banco de dados:
 
@@ -35,7 +35,7 @@ Utilização de 60 funções SQL, como SUM(), AVG(), COUNT(), entre outras.
 
 Cada membro do grupo foi responsável por suas próprias consultas e operações SQL, que estão disponíveis em arquivos individuais.
 
-<h1 aligh="center"> Apresentação </h1>
+<h2 aligh="center"> Apresentação </h2>
 
 Durante a apresentação, vamos explicar:
 
@@ -45,7 +45,7 @@ O MER e o DER desenvolvidos.
 
 Exemplos de INSERTs, SELECTs, DELETEs, UPDATEs, e funções SQL usadas.
 
-<h1 aligh="center"> Participantes </h1
+<h2 aligh="center"> Participantes </h2
 
 Amanda Mechi | André Lucca | Beatriz Lima | Enzo Turcovic | Leonardo Pedro
 
