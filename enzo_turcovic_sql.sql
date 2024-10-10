@@ -85,7 +85,7 @@ INSERT INTO cidades_brasil (estado, cidade, populacao, fundacao, prefeito) VALUE
 INSERT INTO cidades_brasil (estado, cidade, populacao, fundacao, prefeito) VALUES ('Tocantins', 'Gurupi', '87233', '1958-10-14', 'Josi Nunes');
 INSERT INTO cidades_brasil (estado, cidade, populacao, fundacao, prefeito) VALUES ('Para', 'Maraba', '283542', '1913-04-05', 'Tiao Miranda');
 INSERT INTO cidades_brasil (estado, cidade, populacao, fundacao, prefeito) VALUES ('Amazonas', 'Parintins', '113168', '1796-10-15', 'Bi Garcia');
-INSERT INTO cidades_brasil (estado, cidade, populacao, fundacao, prefeito) VALUES ('Rondonia', 'Ji-Parana', '131026' '1977-04-22', 'Isau Fonseca');
+INSERT INTO cidades_brasil (estado, cidade, populacao, fundacao, prefeito) VALUES ('Rondonia', 'Ji-Parana', '131026', '1977-04-22', 'Isau Fonseca');
 INSERT INTO cidades_brasil (estado, cidade, populacao, fundacao, prefeito) VALUES ('Amapa', 'Oiapoque', '26312', '1945-05-15', 'Maria Orlanda');
 INSERT INTO cidades_brasil (estado, cidade, populacao, fundacao, prefeito) VALUES ('Pernambuco', 'Garanhuns', '140577', '1879-03-10', 'Silvino Duarte');
 INSERT INTO cidades_brasil (estado, cidade, populacao, fundacao, prefeito) VALUES ('Ceara', 'Iguatu', '104142', '1859-07-27', 'Ednaldo Lavor');
