@@ -1,0 +1,10 @@
+Entidades: cidades
+
+Atributos:
+
+id (PRIMARY KEY);
+estado;
+cidade;
+população;
+fundação;
+prefeito;

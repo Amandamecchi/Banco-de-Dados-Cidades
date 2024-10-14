@@ -1,50 +1,51 @@
-/*20 UPDATES - Fundação*/
+/* UPDATES */
+/*Atualizando a data de fundação de uma cidade*/
 
-UPDATE cidades_brasil SET fundacao = '1600-01-01' WHERE cidade = 'São Paulo';
-UPDATE cidades_brasil SET fundacao = '1780-05-10' WHERE cidade = 'Campinas';
-UPDATE cidades_brasil SET fundacao = '1550-02-15' WHERE cidade = 'Santos';
-UPDATE cidades_brasil SET fundacao = '1800-07-20' WHERE cidade = 'São José dos Campos';
-UPDATE cidades_brasil SET fundacao = '1700-06-25' WHERE cidade = 'Ribeirão Preto';
-UPDATE cidades_brasil SET fundacao = '1600-09-10' WHERE cidade = 'Sorocaba';
-UPDATE cidades_brasil SET fundacao = '1650-12-30' WHERE cidade = 'Guarulhos';
-UPDATE cidades_brasil SET fundacao = '1950-02-20' WHERE cidade = 'Osasco';
-UPDATE cidades_brasil SET fundacao = '1890-12-15' WHERE cidade = 'Belo Horizonte';
-UPDATE cidades_brasil SET fundacao = '1885-03-11' WHERE cidade = 'Uberlândia';
-UPDATE cidades_brasil SET fundacao = '1855-04-19' WHERE cidade = 'Juiz de Fora';
-UPDATE cidades_brasil SET fundacao = '1910-08-22' WHERE cidade = 'Contagem';
-UPDATE cidades_brasil SET fundacao = '1955-09-12' WHERE cidade = 'Betim';
-UPDATE cidades_brasil SET fundacao = '1830-07-03' WHERE cidade = 'Montes Claros';
-UPDATE cidades_brasil SET fundacao = '1750-02-17' WHERE cidade = 'Uberaba';
-UPDATE cidades_brasil SET fundacao = '1565-01-01' WHERE cidade = 'Rio de Janeiro';
-UPDATE cidades_brasil SET fundacao = '1580-11-15' WHERE cidade = 'Niterói';
-UPDATE cidades_brasil SET fundacao = '1840-05-31' WHERE cidade = 'Nova Iguaçu';
-UPDATE cidades_brasil SET fundacao = '1943-07-17' WHERE cidade = 'Duque de Caxias';
-UPDATE cidades_brasil SET fundacao = '1670-06-18' WHERE cidade = 'Campos dos Goytacazes';
+UPDATE cidades_brasil SET fundacao = '01-01-1600' WHERE cidade = 'São Paulo';
+UPDATE cidades_brasil SET fundacao = '05-10-1780' WHERE cidade = 'Campinas';
+UPDATE cidades_brasil SET fundacao = '15-05-1550' WHERE cidade = 'Santos';
+UPDATE cidades_brasil SET fundacao = '20-07-1800' WHERE cidade = 'São José dos Campos';
+UPDATE cidades_brasil SET fundacao = '25-06-1700' WHERE cidade = 'Ribeirão Preto';
+UPDATE cidades_brasil SET fundacao = '10-09-1600' WHERE cidade = 'Sorocaba';
+UPDATE cidades_brasil SET fundacao = '30-12-1650' WHERE cidade = 'Guarulhos';
+UPDATE cidades_brasil SET fundacao = '20-02-1950' WHERE cidade = 'Osasco';
+UPDATE cidades_brasil SET fundacao = '15-12-1890' WHERE cidade = 'Belo Horizonte';
+UPDATE cidades_brasil SET fundacao = '11-03-1885' WHERE cidade = 'Uberlândia';
+UPDATE cidades_brasil SET fundacao = '19-04-1855' WHERE cidade = 'Juiz de Fora';
+UPDATE cidades_brasil SET fundacao = '22-08-1910' WHERE cidade = 'Contagem';
+UPDATE cidades_brasil SET fundacao = '12-09-1955' WHERE cidade = 'Betim';
+UPDATE cidades_brasil SET fundacao = '03-07-1830' WHERE cidade = 'Montes Claros';
+UPDATE cidades_brasil SET fundacao = '17-02-1750' WHERE cidade = 'Uberaba';
+UPDATE cidades_brasil SET fundacao = '01-01-1565' WHERE cidade = 'Rio de Janeiro';
+UPDATE cidades_brasil SET fundacao = '15-11-1580' WHERE cidade = 'Niterói';
+UPDATE cidades_brasil SET fundacao = '31-05-1840' WHERE cidade = 'Nova Iguaçu';
+UPDATE cidades_brasil SET fundacao = '17-07-1943' WHERE cidade = 'Duque de Caxias'
+UPDATE cidades_brasil SET fundacao = '18-06-1670' WHERE cidade = 'Campos dos Goytacazes'
 
-/*Estado*/
+/* UPDATE - modificando o nome das cidades dos estados "São Paulo", "Minas Gerais", "Rio de Janeiro", "Espírito Santo" e "Paraná"*/
 
-UPDATE cidades_brasil SET estado = 'Rio de Janeiro' WHERE cidade = 'São Paulo';
-UPDATE cidades_brasil SET estado = 'Minas Gerais' WHERE cidade = 'Campinas';
-UPDATE cidades_brasil SET estado = 'Espírito Santo' WHERE cidade = 'Santos';
-UPDATE cidades_brasil SET estado = 'Paraná' WHERE cidade = 'São José dos Campos';
-UPDATE cidades_brasil SET estado = 'Santa Catarina' WHERE cidade = 'Ribeirão Preto';
-UPDATE cidades_brasil SET estado = 'Rio Grande do Sul' WHERE cidade = 'Sorocaba';
-UPDATE cidades_brasil SET estado = 'Minas Gerais' WHERE cidade = 'Guarulhos';
-UPDATE cidades_brasil SET estado = 'Rio de Janeiro' WHERE cidade = 'Osasco';
-UPDATE cidades_brasil SET estado = 'São Paulo' WHERE cidade = 'Belo Horizonte';
-UPDATE cidades_brasil SET estado = 'Paraná' WHERE cidade = 'Uberlândia';
-UPDATE cidades_brasil SET estado = 'Minas Gerais' WHERE cidade = 'Juiz de Fora';
-UPDATE cidades_brasil SET estado = 'Espírito Santo' WHERE cidade = 'Contagem';
-UPDATE cidades_brasil SET estado = 'Paraná' WHERE cidade = 'Betim';
-UPDATE cidades_brasil SET estado = 'Santa Catarina' WHERE cidade = 'Montes Claros';
-UPDATE cidades_brasil SET estado = 'Rio Grande do Sul' WHERE cidade = 'Uberaba';
-UPDATE cidades_brasil SET estado = 'Paraná' WHERE cidade = 'Rio de Janeiro';
-UPDATE cidades_brasil SET estado = 'Santa Catarina' WHERE cidade = 'Niterói';
-UPDATE cidades_brasil SET estado = 'Minas Gerais' WHERE cidade = 'Nova Iguaçu';
-UPDATE cidades_brasil SET estado = 'Paraná' WHERE cidade = 'Duque de Caxias';
-UPDATE cidades_brasil SET estado = 'Santa Catarina' WHERE cidade = 'Campos dos Goytacazes';
+UPDATE cidades_brasil SET cidade = 'Barueri' WHERE id = 1;
+UPDATE cidades_brasil SET cidade = 'Itu' WHERE id = 2;
+UPDATE cidades_brasil SET cidade = 'Jundiaí' WHERE id = 3;
+UPDATE cidades_brasil SET cidade = 'Piracicaba' WHERE id = 4;
+UPDATE cidades_brasil SET cidade = 'São Vicente' WHERE id = 5;
+UPDATE cidades_brasil SET cidade = 'Presidente Prudente' WHERE id = 6;
+UPDATE cidades_brasil SET cidade = 'Sorocaba' WHERE id = 7;
+UPDATE cidades_brasil SET cidade = 'Botucatu' WHERE id = 8;
+UPDATE cidades_brasil SET cidade = 'Uberaba' WHERE id = 9;
+UPDATE cidades_brasil SET cidade = 'Sete Lagoas' WHERE id = 10;
+UPDATE cidades_brasil SET cidade = 'Patos de Minas' WHERE id = 11;
+UPDATE cidades_brasil SET cidade = 'Poços de Caldas' WHERE id = 12;
+UPDATE cidades_brasil SET cidade = 'Ipatinga' WHERE id = 13;
+UPDATE cidades_brasil SET cidade = 'Nova Lima' WHERE id = 14;
+UPDATE cidades_brasil SET cidade = 'Macaé' WHERE id = 15;
+UPDATE cidades_brasil SET cidade = 'Angra dos Reis' WHERE id = 16;
+UPDATE cidades_brasil SET cidade = 'Resende' WHERE id = 17;
+UPDATE cidades_brasil SET cidade = 'Vitória' WHERE id = 18;
+UPDATE cidades_brasil SET cidade = 'Vila Velha' WHERE id = 19;
+UPDATE cidades_brasil SET cidade = 'Cascavel' WHERE id = 20;
 
-/*População*/
+/*UPDATE - Atualizando a população das cidades*/
 
 UPDATE cidades_brasil SET populacao = 13000000 WHERE cidade = 'São Paulo';
 UPDATE cidades_brasil SET populacao = 1220000 WHERE cidade = 'Campinas';
@@ -67,7 +68,7 @@ UPDATE cidades_brasil SET populacao = 830000 WHERE cidade = 'Nova Iguaçu';
 UPDATE cidades_brasil SET populacao = 930000 WHERE cidade = 'Duque de Caxias';
 UPDATE cidades_brasil SET populacao = 510000 WHERE cidade = 'Campos dos Goytacazes';
 
-/*Prefeito*/
+/*UPDATE - Atualizando o prefeito da cidade*/
 
 UPDATE cidades_brasil SET prefeito = 'Bruno Souza' WHERE cidade = 'São Paulo';
 UPDATE cidades_brasil SET prefeito = 'Carlos Silva' WHERE cidade = 'Campinas';
