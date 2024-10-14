@@ -88,7 +88,11 @@ UPDATE cidades_brasil SET prefeito = 'Pedro Almeida' WHERE cidade = 'Uberaba';
 UPDATE cidades_brasil SET prefeito = 'Julia Fernandes' WHERE cidade = 'Rio de Janeiro';
 UPDATE cidades_brasil SET prefeito = 'Felipe Braga' WHERE cidade = 'Niterói';
 UPDATE cidades_brasil SET prefeito = 'Beatriz Santos' WHERE cidade = 'Nova Iguaçu';
-UPDATE cidades_brasil SET prefeito = 'Carlos Meireles' WHERE cidade = 'Duque de Caxias';
-UPDATE cidades_brasil SET prefeito = 'Henrique Mota' WHERE cidade = 'Campos dos Goytacazes';
+
+/*Alteração do nome de uma cidade*/
+UPDATE cidades_brasil SET nome = 'Valinhos' WHERE id = 2;
+
+/*Alteração do Prefeito de uma cidade*/
+UPDATE cidades_brasil SET prefeito = 'Franklin' WHERE id = 2;
 
 /*80 UPDATES*/
